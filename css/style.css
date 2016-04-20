@@ -1,138 +1,137 @@
 body {
-	background: #fff;
-	-webkit-font-smoothing: antialiased;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
 }
 
 h3 {
-	font-size: 12px;
-  font-weight: 400;
-	letter-spacing: 2px;
-	color: #00cfc1;
-    
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #00cfc1;
+
 }
 
 h4 {
-	letter-spacing: 1px;
-	font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
 }
 
 h2 a {
-	text-decoration: none;
-	border-bottom: 0;
+    text-decoration: none;
+    border-bottom: 0;
 }
 
 h2 a:hover {
-	background: #00cfc1;
-	color: #fff;
+    background: #00cfc1;
+    color: #fff;
 }
 
 a {
-	-webkit-transition: all 0.15s ease-in-out;
-	-moz-transition: all 0.15s ease-in-out;
-	-ms-transition: all 0.15s ease-in-out;
-	-o-transition: all 0.15s ease-in-out;
-	transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 #hero {
-	/*background: url(../images/shapes-pattern@2x.png) -5px 10px repeat;*/
-	background-color: #fff;
-	background-size: 300px auto;
-	position: relative;
-	height: 90vh;
+    /*background: url(../images/shapes-pattern@2x.png) -5px 10px repeat;*/
+    background-color: #fff;
+    background-size: 300px auto;
+    position: relative;
+    height: 90vh;
 }
 
 .tagline {
-	padding-top: 60px;
-	text-align: center;
-	color: white;
+    padding-top: 60px;
+    text-align: center;
+    color: white;
 }
 
 #hero h1 {
-	position: absolute;
-	top: -25px;
-	left: 5%;
-	width: 90%;
-	height:   300px;
-	background: url(../images/logo@2x.png) center center no-repeat;
-	background-size: 100% auto;
-	text-indent: -9999px;
-	z-index: 10;
+    position: absolute;
+    top: -25px;
+    left: 5%;
+    width: 90%;
+    height: 300px;
+    background: url(../images/logo@2x.png) center center no-repeat;
+    background-size: 100% auto;
+    text-indent: -9999px;
+    z-index: 10;
 }
 
 #hero h2 {
-	font-size: 20px;
-	font-family: 'Playfair Display', serif;
-	font-weight: 100;
-	margin-bottom: 30px;
-	text-decoration: underline;
-	line-height: 1;
-	letter-spacing: 2px;
-	text-align: center;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 #hero h2 span {
-	display: inline-block;
-	margin-bottom: 10px;
-
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 #hero .photo {
-	background: url(../images/photo-grid.png) left top no-repeat;
-	background-size: cover;
-	height: 200px;
-	position: absolute;
-	width: 100%;
-	top: 0;
-	right: 0;
+    background: url(../images/photo-grid.png) left top no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
 }
 
 #hero .photo a {
-	position: absolute;
-	bottom: -412px;
-	left: 5%;
-	margin: 0;
-	z-index: 20;
-	width: 90%;
+    position: absolute;
+    bottom: -412px;
+    left: 5%;
+    margin: 0;
+    z-index: 20;
+    width: 90%;
 
-	/* Temporary*/
-	display: none;
+    /* Temporary*/
+    display: none;
 }
 
 #hero .container > .rsvp {
-	display: block;
+    display: block;
 }
 
 #hero .column {
-	padding-top: 100px;
+    padding-top: 100px;
 }
 
 nav.khasak-nav {
-	color: white;
-	float: right;
-	text-decoration: none;
-	margin-top: 30px;
-	z-index: 100;
+    color: white;
+    float: right;
+    text-decoration: none;
+    margin-top: 30px;
+    z-index: 100;
 }
 
-nav a, nav a:hover{
-	color: white !important;
-	text-decoration: none !important;
-	border-color: transparent !important;
+nav a, nav a:hover {
+    color: white !important;
+    text-decoration: none !important;
+    border-color: transparent !important;
 }
 
 nav a:hover {
-	color: #cccccc;
+    color: #cccccc;
 }
 
 nav a:after {
-	content: ' / ';
-	margin: 10px;
+    content: ' / ';
+    margin: 10px;
 }
 
 nav a:last-child:after {
-	content: '';
-	margin-right: 0;
+    content: '';
+    margin-right: 0;
 }
 
 /*.divider {
@@ -144,198 +143,198 @@ nav a:last-child:after {
 }*/
 
 .divider.logo {
-	height: 50px;
-	margin-top: 40px;
+    height: 50px;
+    margin-top: 40px;
 }
 
 .divider.white {
-	background: url(../images/divider-white.png) center center repeat-x;
-	background-size: 140px auto;
+    background: url(../images/divider-white.png) center center repeat-x;
+    background-size: 140px auto;
 }
 
 .divider a {
-	margin: 0 auto;
-	display: block;
-	width: 100px;
-	height: 50px;
-	background: url(../images/logo-small@2x.png)no-repeat;
-	background-position: center bottom;
-	background-size: 100px auto;
-	text-indent: -9999px;
-	border: 0;
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: url(../images/logo-small@2x.png) no-repeat;
+    background-position: center bottom;
+    background-size: 100px auto;
+    text-indent: -9999px;
+    border: 0;
 }
 
 .divider a:hover {
-	background-position: center top;
+    background-position: center top;
 }
 
 #lineup {
-	border-bottom: 2px solid #f0f0f0;
-	padding-top: 40px;
-	padding-bottom: 80px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 #lineup .columns {
-	margin-bottom: 60px;
-	padding-bottom: 0px;
-	text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 0px;
+    text-align: center;
 }
 
 #lineup .columns:last-child {
-	margin-bottom: 0px;
-	border-bottom: 0px solid rgba(0,0,0,.1);
-	padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px solid rgba(0, 0, 0, .1);
+    padding-bottom: 0px;
 }
 
 #lineup .columns h4 {
-	margin-bottom: 20px;
-	letter-spacing: 1px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 #lineup .columns h4:last-child {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 #lineup .columns a {
-	display: inline-block;
-	padding: 0;
-	border: 0;
+    display: inline-block;
+    padding: 0;
+    border: 0;
 }
 
 #lineup .columns a:hover {
-	background: #00cfc1;
-	color: #fff;
+    background: #00cfc1;
+    color: #fff;
 }
 
 #more-details {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
 }
 
 #more-details p:last-child {
-	margin-bottom: 0;
-	padding-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #more-details .logo-group {
-	height:   155px;
-	background: url(../images/logo-group-stack@2x.png) center center no-repeat;
-	background-size: 200px auto;
-	text-indent: -9999px;
-	margin-bottom: 80px;
+    height: 155px;
+    background: url(../images/logo-group-stack@2x.png) center center no-repeat;
+    background-size: 200px auto;
+    text-indent: -9999px;
+    margin-bottom: 80px;
 }
 
 .rsvp-container {
-	background: url(../images/shapes-pattern@2x.png) -5px 10px repeat;
-	background-color: #fff;
-	background-size: 328px auto;
-	border-top: 1px solid #f0f0f0;
+    background: url(../images/shapes-pattern@2x.png) -5px 10px repeat;
+    background-color: #fff;
+    background-size: 328px auto;
+    border-top: 1px solid #f0f0f0;
 }
 
 #rsvp {
-	padding-top: 80px;
-	padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #rsvp h3 {
-	text-align: center;
-	margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 #rsvp .signup-container {
-	width: 100%;
-	margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #rsvp .signup-container iframe {
-	height: 240px;
-	border: none;
-	margin: 0;
-	padding: 0;
+    height: 240px;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
 #artist-info {
-	background: #424345;
-	color: #fff;
-	padding-top: 80px;
-	padding-bottom: 120px;
+    background: #424345;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 120px;
 }
 
 #artist-info a {
-	color: #fff;
-	border-bottom: 1px solid rgba(255,255,255,.2);
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
 }
 
 #artist-info .divider {
-	opacity: .4;
+    opacity: .4;
 }
 
 #artist-info .artist-info-section {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
 }
 
 #artist-info .artist-info-section:last-child {
-	padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 #artist-info .section-header {
-	text-align: center;
+    text-align: center;
 }
 
 #artist-info .section-header h4 {
-	margin-bottom: 80px;
-	display: inline-block;
-	max-width: 500px;
+    margin-bottom: 80px;
+    display: inline-block;
+    max-width: 500px;
 }
 
 #artist-info .artist-info-section#cathedrals p:last-child {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #artist-info .artist-info-section img {
-	position: relative;
-	z-index: 0;
-	opacity: 1;
-	width: 100%;
-	height: auto;
-	position: relative;
-	top: 0;
-	left: 0;
-	display: none;
-	max-width: 200px;
+    position: relative;
+    z-index: 0;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    max-width: 200px;
 }
 
 #artist-info .artist-info-section .two {
-	position: relative;
+    position: relative;
 }
 
 #artist-info .artist-info-section .ten {
-	z-index: 10;
-	position: relative;
+    z-index: 10;
+    position: relative;
 }
 
 #artist-info .artist-info-section .soundcloud {
-	width: 100%;
-	margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 #artist-info .artist-info-section p.artist-category {
-	color: #00cfc1;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-family: GalanoGrotesque-SemiBold;
-	margin-bottom: 0;
-	font-size: 14px;
-	text-align: center;
+    color: #00cfc1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: GalanoGrotesque-SemiBold;
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: center;
 }
 
 #artist-info .artist-info-section h3 {
-	margin-bottom: 10px;
-	margin-top: 0px;
-	color: #fff;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #fff;
 }
 
 #artist-info .artist-info-section h4 {
@@ -343,122 +342,122 @@ nav a:last-child:after {
 }
 
 #artist-info .artist-info-section a:hover {
-	background: #00cfc1;
-	color: #fff;
+    background: #00cfc1;
+    color: #fff;
 }
 
 #artist-info .artist-info-section a.read-more {
-	text-transform: uppercase;
-	font-size: 10px;
-	display: inline-block;
-	cursor: pointer;
-	top: auto;
-	border: 0;
-	background: transparent;
-	color: rgba(255,255,255,.5);
-	padding-top: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+    display: inline-block;
+    cursor: pointer;
+    top: auto;
+    border: 0;
+    background: transparent;
+    color: rgba(255, 255, 255, .5);
+    padding-top: 2px;
 }
 
 #artist-info .artist-info-section a.read-more:hover {
-	background: #00cfc1;
-	color: #fff;
+    background: #00cfc1;
+    color: #fff;
 }
 
 #artist-info .artist-info-section p.social {
-	margin-top: 0px;
-	text-align: center;
-	line-height: 32px;
+    margin-top: 0px;
+    text-align: center;
+    line-height: 32px;
 }
 
 #artist-info .artist-info-section p.social a {
-	padding: 6px 10px 5px 10px;
-	font-size: 10px;
-	margin: 0;
-	background: transparent;
-	color: #fff;
-	text-decoration: none;
-	margin-right: 5px;
-	border: 1px solid rgba(255,255,255,.2);
-	letter-spacing: 1px;
+    padding: 6px 10px 5px 10px;
+    font-size: 10px;
+    margin: 0;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    letter-spacing: 1px;
 }
 
 #artist-info .artist-info-section p.social a:hover {
-	background: #00cfc1;
-	color: #fff;
+    background: #00cfc1;
+    color: #fff;
 }
 
 .more {
-	display: block !important;
-	max-height: 0;
-	overflow: hidden;
-	opacity: 0;
-	transition: 0.2s ease-in-out;
+    display: block !important;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
 }
 
 .more.open {
-	display: block;
-	max-height: 1500px;
-	opacity: 1;
+    display: block;
+    max-height: 1500px;
+    opacity: 1;
 }
 
 #footer {
-	background: #323335;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	color: rgba(255,255,255,.4);
-	font-size: 12px;
-	text-align: center;
+    background: #323335;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgba(255, 255, 255, .4);
+    font-size: 12px;
+    text-align: center;
 }
 
 #footer a.button {
-	color: #fff;
-	margin: 0 0 40px 0;
-	width: 100%;
+    color: #fff;
+    margin: 0 0 40px 0;
+    width: 100%;
 }
 
 #footer a.back {
-	color: rgba(255,255,255,.3);
-	text-transform: uppercase;
-	border: 0;
-	padding: 0;
-	margin: 0 auto;
+    color: rgba(255, 255, 255, .3);
+    text-transform: uppercase;
+    border: 0;
+    padding: 0;
+    margin: 0 auto;
 }
 
 #footer a.back:hover {
-	background: #00cfc1;
-	color: #fff;
+    background: #00cfc1;
+    color: #fff;
 }
 
 #footer .logo-footer {
-	display: inline-block;
-	width: 83px;
-	height: 31px;
-	/*background: url(../images/logo-footer@2x.png) center center no-repeat;*/
-	background-size: 83px 31px;
-	text-indent: -9999px;
-	margin: 0 auto 40px auto;
-	text-decoration: none;
-	border: none;
+    display: inline-block;
+    width: 83px;
+    height: 31px;
+    /*background: url(../images/logo-footer@2x.png) center center no-repeat;*/
+    background-size: 83px 31px;
+    text-indent: -9999px;
+    margin: 0 auto 40px auto;
+    text-decoration: none;
+    border: none;
 }
 
 .copyleft {
-	display: inline-block;
-	text-align: right;
-	margin: 0;
-	-moz-transform: scaleX(-1);
-	-o-transform: scaleX(-1);
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1);
-	filter: FlipH;
-	-ms-filter: "FlipH";
+    display: inline-block;
+    text-align: right;
+    margin: 0;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
 
 /* iphone 6 and up  ----------------------------------------------------------*/
 @media (min-width: 360px) {
-	#rsvp .iframe-container {
-		height: 283px;
-		overflow: hidden;
-	}
+    #rsvp .iframe-container {
+        height: 283px;
+        overflow: hidden;
+    }
 }
 
 /* Larger than mobile  -------------------------------------------------------*/
@@ -468,276 +467,275 @@ nav a:last-child:after {
 
 /* Larger than phablet (also point when grid becomes active)  ----------------*/
 @media (min-width: 550px) {
-	#hero h1 {
-		position: absolute;
-		width: 100%;
-	}
+    #hero h1 {
+        position: absolute;
+        width: 100%;
+    }
 
-	h4 {
-		font-size: 18px;
-	}
+    h4 {
+        font-size: 18px;
+    }
 
-	#artist-info .artist-info-section img {
-		width: 100%;
-	}
+    #artist-info .artist-info-section img {
+        width: 100%;
+    }
 
-	#more-details {
-		padding-top: 80px;
-		padding-bottom: 80px;
-	}
+    #more-details {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 
-	#artist-info .artist-info-section h3 {
-		margin-top: 60px;
-	}
+    #artist-info .artist-info-section h3 {
+        margin-top: 60px;
+    }
 
-	#artist-info .artist-info-section h4 {
-		display: inline-block;
-		margin-right: 20px;
-	}
+    #artist-info .artist-info-section h4 {
+        display: inline-block;
+        margin-right: 20px;
+    }
 
-	#artist-info .artist-info-section p.social {
-		margin-top: 0px;
-		display: inline-block;
-		position: relative;
-		top: -3px;
-	}
+    #artist-info .artist-info-section p.social {
+        margin-top: 0px;
+        display: inline-block;
+        position: relative;
+        top: -3px;
+    }
 
-	#artist-info .artist-info-section p.artist-category {
-		text-align: left;
-	}
+    #artist-info .artist-info-section p.artist-category {
+        text-align: left;
+    }
 
-	#artist-info .artist-info-section .soundcloud {
-		width: 370px;
-		margin-bottom: 20px;
-	}
+    #artist-info .artist-info-section .soundcloud {
+        width: 370px;
+        margin-bottom: 20px;
+    }
 
-	.divider {
-		background-size: 220px auto;
-		width: 100%;
-		height: 20px;
-	}
-	.divider.white {
-		background-size: 220px auto;
-		width: 100%;
-		height: 20px;
-	}
+    .divider {
+        background-size: 220px auto;
+        width: 100%;
+        height: 20px;
+    }
 
-	#artist-info .artist-info-section {
-		text-align: left;
-	}
+    .divider.white {
+        background-size: 220px auto;
+        width: 100%;
+        height: 20px;
+    }
+
+    #artist-info .artist-info-section {
+        text-align: left;
+    }
 }
-
 
 /* Larger than tablet  -------------------------------------------------------*/
 @media (min-width: 700px) {
-	#hero {
-		position: static;
-	}
+    #hero {
+        position: static;
+    }
 
-	h3.tagline {
-		font-size: 13px;
-	}
+    h3.tagline {
+        font-size: 13px;
+    }
 
-	#hero .photo {
-		height: 90vh;
-		width: 55%;
-	}
+    #hero .photo {
+        height: 90vh;
+        width: 55%;
+    }
 
-	#hero h1 {
-		position: absolute;
-		top: 20px;
-		left: 0px;
-		width: 100%;
-	}
+    #hero h1 {
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        width: 100%;
+    }
 
-	#hero h2 {
-		text-align: left;
-		font-size: 16px;
-	}
+    #hero h2 {
+        text-align: left;
+        font-size: 16px;
+    }
 
-	#hero .column {
+    #hero .column {
         padding-top: 200px;
-	}
+    }
 
-	.divider a {
-		float: right;
-		margin-right: 40px;
-	}
+    .divider a {
+        float: right;
+        margin-right: 40px;
+    }
 
-	#hero h3.tagline {
-		text-align: left;
-    color: #4e4f52;
-	}
+    #hero h3.tagline {
+        text-align: left;
+        color: #4e4f52;
+    }
 
-    
-	.more.open {
-		display: block;
-		max-height: 560px;
-		opacity: 1;
-	}
+    .more.open {
+        display: block;
+        max-height: 560px;
+        opacity: 1;
+    }
 
-	#rsvp .iframe-container {
-		margin-bottom: -40px;
-		overflow: hidden;
-	}
+    #rsvp .iframe-container {
+        margin-bottom: -40px;
+        overflow: hidden;
+    }
 
-	#rsvp .signup-container iframe {
-		height: 280px;
-		border: none;
-		margin: 0;
-		padding: 0;
-	}
+    #rsvp .signup-container iframe {
+        height: 280px;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
 
-	#artist-info .artist-info-section .video {
-		width: 60%;
-	}
+    #artist-info .artist-info-section .video {
+        width: 60%;
+    }
 
-	#hero .photo a {
-		position: absolute;
-		bottom: 40px;
-		left: 40px;
-		margin: 0;
-		color: #fff;
-		z-index: 20;
-		width: auto;
-		/* Temporary*/
-		display: inline-block;
-	}
+    #hero .photo a {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        margin: 0;
+        color: #fff;
+        z-index: 20;
+        width: auto;
+        /* Temporary*/
+        display: inline-block;
+    }
 
-	#hero .container > .rsvp {
-		display: none;
-	}
+    #hero .container > .rsvp {
+        display: none;
+    }
 
-	#footer .four:first-child {
-		text-align: left;
-	}
+    #footer .four:first-child {
+        text-align: left;
+    }
 
-	#lineup .columns {
-		margin-bottom: 0px;
-		border-bottom: 0px solid rgba(0,0,0,.1);
-		padding-bottom: 0px;
-		text-align: left;
-	}
+    #lineup .columns {
+        margin-bottom: 0px;
+        border-bottom: 0px solid rgba(0, 0, 0, .1);
+        padding-bottom: 0px;
+        text-align: left;
+    }
 }
 
 /* Larger than tablet  -------------------------------------------------------*/
 @media (min-width: 768px) {
-	#hero h2 {
-		font-size: 20px;
-	}
+    #hero h2 {
+        font-size: 20px;
+    }
 
-	#hero .photo {
-		height: 588px;
-	}
+    #hero .photo {
+        height: 588px;
+    }
 }
 
 /* Larger than tablet  -------------------------------------------------------*/
 @media (min-width: 900px) {
-	#rsvp .signup-container {
-		width: 50%;
-		margin: 0 auto;
-	}
+    #rsvp .signup-container {
+        width: 50%;
+        margin: 0 auto;
+    }
 
-	#hero .photo {
-		width: 60%;
-		height: 90vh;
-	}
+    #hero .photo {
+        width: 60%;
+        height: 90vh;
+    }
 
-	#hero h2 {
-		font-size: 24px;
-	}
+    #hero h2 {
+        font-size: 24px;
+    }
 
-	h4 {
-		font-size: 20px;
-	}
+    h4 {
+        font-size: 20px;
+    }
 
-	#more-details .logo-group {
-		height:   200px;
-		background-size: 250px auto;
-		margin-bottom: 40px;
-	}
+    #more-details .logo-group {
+        height: 200px;
+        background-size: 250px auto;
+        margin-bottom: 40px;
+    }
 
-	h3.tagline {
-		font-size: 16px;
-	}
+    h3.tagline {
+        font-size: 16px;
+    }
 }
 
 /* 960  ----------------------------------------------------------------------*/
 @media (min-width: 960px) {
-	#lineup .columns {
-		margin-bottom: 0;
-	}
+    #lineup .columns {
+        margin-bottom: 0;
+    }
 
-	#artist-info .artist-info-section img {
-		display: block;
-	}
+    #artist-info .artist-info-section img {
+        display: block;
+    }
 
-	#footer a.button {
-		color: #fff;
-		margin: 0;
-		width: 100%;
-	}
+    #footer a.button {
+        color: #fff;
+        margin: 0;
+        width: 100%;
+    }
 
-	#footer a.back {
-		color: rgba(255,255,255,.3);
-		text-transform: uppercase;
-		border: 0;
-		padding: 0;
-		margin: 19px 0 0 0;
-		text-align: right;
-		display: inline-block;
-		float: right;
-	}
+    #footer a.back {
+        color: rgba(255, 255, 255, .3);
+        text-transform: uppercase;
+        border: 0;
+        padding: 0;
+        margin: 19px 0 0 0;
+        text-align: right;
+        display: inline-block;
+        float: right;
+    }
 
-	#footer a.back:hover {
-		background: #00cfc1;
-		color: #fff;
-	}
+    #footer a.back:hover {
+        background: #00cfc1;
+        color: #fff;
+    }
 
-	#footer .logo-footer {
-		width: 83px;
-		height: 31px;
-		background: url(../images/logo-footer@2x.png) center center no-repeat;
-		background-size: 83px 31px;
-		text-indent: -9999px;
-		margin: 13px 0 0 0 ;
-	}
+    #footer .logo-footer {
+        width: 83px;
+        height: 31px;
+        background: url(../images/logo-footer@2x.png) center center no-repeat;
+        background-size: 83px 31px;
+        text-indent: -9999px;
+        margin: 13px 0 0 0;
+    }
 
-	#more-details {
-		text-align: left;
-	}
+    #more-details {
+        text-align: left;
+    }
 }
 
 /* Larger than desktop  ------------------------------------------------------*/
 @media (min-width: 1000px) {
-	#hero h1 {
-		width: 900px;
-	}
+    #hero h1 {
+        width: 900px;
+    }
 
-	h3.tagline {
-		font-size: 15px;
-	}
+    h3.tagline {
+        font-size: 15px;
+    }
 
-	#hero .photo {
-		height: 90vh;
-	}
+    #hero .photo {
+        height: 90vh;
+    }
 }
 
 /* Larger than Desktop HD ----------------------------------------------------*/
 @media (min-width: 1200px) {
-	#hero .photo {
-		width: 65%;
-	}
+    #hero .photo {
+        width: 65%;
+    }
 }
 
 @media (min-width: 1600px) {
-	#hero .photo {
-		width: 70%;
-	}
+    #hero .photo {
+        width: 70%;
+    }
 }
 
 @media (min-width: 2300px) {
-	#hero .photo {
-		width: 67%;
-	}
+    #hero .photo {
+        width: 67%;
+    }
 }
