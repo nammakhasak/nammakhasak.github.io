@@ -225,6 +225,10 @@ nav a:last-child:after {
     margin-bottom: 80px;
 }
 
+.event-item {
+    margin-bottom: 30px;
+}
+
 .rsvp-container {
     background: url(../images/shapes-pattern@2x.png) -5px 10px repeat;
     background-color: #fff;
